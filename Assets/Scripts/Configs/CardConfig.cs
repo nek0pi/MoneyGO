@@ -1,7 +1,7 @@
 using Enums;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Configs", fileName = "CardConfig")]
+[CreateAssetMenu(menuName = "Configs/CardConfig", fileName = "CardConfig", order = 0)]
 public class CardConfig : ScriptableObject
 {
     public string Name;
